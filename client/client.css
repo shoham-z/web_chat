@@ -1,0 +1,19 @@
+.bottom{
+    position:absolute;
+    bottom:0;
+    width:95%;
+    height:60px;
+    alignment: bottom;
+    align-content: center;
+}
+#msg{
+    flex-grow: 1;
+    width: 90%;
+    height: 20%
+}
+#messages{
+    height: 550px;
+    align-self: end;
+    overflow-y: auto;
+    border: 1px solid green;
+}
